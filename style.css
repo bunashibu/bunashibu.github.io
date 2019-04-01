@@ -25,6 +25,9 @@ html, body {
   transform: translate(-50%);
   z-index: 100;
 }
+.download-button img:hover {
+  transform: scale(1.1);
+}
 .cloud-top {
   display: block;
   position: absolute;
