@@ -1,2 +1,3 @@
-# bunashibu.github.io
-kikan website
+# Kikan Website
+[Here](https://bunashibu.github.io/)
+
