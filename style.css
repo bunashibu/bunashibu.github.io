@@ -17,6 +17,18 @@ html, body {
   transform: translate(-50%, -65%);
   z-index: 10;
 }
+.version {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 15;
+}
+.version-img {
+  display: block;
+  position: absolute;
+  top: 50px;
+}
 .download-button {
   display: block;
   position: absolute;
@@ -60,6 +72,9 @@ html, body {
   .title {
     height: 60%;
   }
+  .version-img {
+    width: 400px;
+  }
   .download-button {
     width: 400px;
     height: 100px;
@@ -81,6 +96,9 @@ html, body {
   .title {
     width: 100%;
   }
+  .version-img {
+    width: 300px;
+  }
   .download-button {
     width: 300px;
     height: 75px;
@@ -98,4 +116,27 @@ html, body {
     height: 15%;
   }
 }
+@media screen and (max-height: 700px) {
+  .title {
+    width: 1025px;
+    height: 420px;
+  }
+  .version {
+    top: 0%;
+    right: 0%;
+  }
+  .version-img {
+    top: 20px;
+    right: 20px;
+  }
+  .cloud-top {
+    width: 489px;
+    height: 203px;
+  }
+  .cloud-bottom {
+    width: 489px;
+    height: 203px;
+  }
+}
+
 
