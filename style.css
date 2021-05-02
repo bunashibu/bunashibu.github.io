@@ -20,14 +20,13 @@ html, body {
 .version {
   display: block;
   position: absolute;
-  top: 50%;
-  left: 60%;
+  top: 87%;
+  left: 87%;
   z-index: 15;
 }
-.version-img {
-  display: block;
-  position: absolute;
-  top: 50px;
+.version strong {
+  font-size: 48px;
+  color: #86D3FF;
 }
 .download-button {
   display: block;
@@ -72,9 +71,6 @@ html, body {
   .title {
     height: 60%;
   }
-  .version-img {
-    width: 400px;
-  }
   .download-button {
     width: 400px;
     height: 100px;
@@ -95,9 +91,6 @@ html, body {
 @media screen and (max-width: 925px) {
   .title {
     width: 100%;
-  }
-  .version-img {
-    width: 300px;
   }
   .download-button {
     width: 300px;
@@ -124,10 +117,6 @@ html, body {
   .version {
     top: 0%;
     right: 0%;
-  }
-  .version-img {
-    top: 20px;
-    right: 20px;
   }
   .cloud-top {
     width: 489px;
